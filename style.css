@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -54,7 +55,7 @@ ul,
 
 .up{
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
     justify-content: space-between;
 }
 
@@ -70,7 +71,43 @@ ul,
     border-radius: 10px;
 }
 
-img{
+.img1{
     width: auto;
     height: 240px;
+}
+
+.mid{
+    display: flex;
+    flex-flow: column;
+    padding: 40px;
+}
+
+.subheader{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.img2{
+    height: 170px;
+    width: auto;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+
+.midim{
+    align-self: center;
+}
+
+.midtxt{
+    display: flex;
+    align-self: center;
+    margin-top: 8px;
+}
+
+.msec{
+    width: 170px;
+    margin: 0 30px;
 }
