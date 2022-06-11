@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Hero', serif;
 }
 
 body{
@@ -110,4 +110,20 @@ ul,
 .msec{
     width: 170px;
     margin: 0 30px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    padding: 130px 180px;
+    flex-flow: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.quotesec{
+    font-size: 26px;
+    align-self: end;
 }
