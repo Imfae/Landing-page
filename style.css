@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Hero', serif;
+    font-family: 'hero', serif;
 }
 
 body{
@@ -126,4 +126,48 @@ ul,
 .quotesec{
     font-size: 26px;
     align-self: end;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 48px 64px;
+    width: 1000px;
+    height: 150px;
+    gap: 64px;
+}
+
+.dmain{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.dsec{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 24px;
+}
+
+.cta button{
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    border: solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
